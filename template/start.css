@@ -1,0 +1,53 @@
+/* 
+    Document   : strat
+    Created on : 30-Apr-2013, 16:52:35
+    Author     : Aslam
+    Description:
+        Index of Theme Selection
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+body{
+
+    font-family:'Open Sans Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.top-wrapper {
+    background: #eee;
+    color: #999;
+    padding: 10px;
+}
+.white-wrapper{
+
+    background: #fff;
+    color: #999;
+    padding: 10px;
+}
+.inner {
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.top-wrapper h1 {
+    font-size: 50px;
+    line-height: 45px;
+    margin: 0;
+    font-weight: normal;
+}
+.colored {
+    color: #8AB833;
+}
+.center{text-align: center;}
+a,a:hover{text-decoration: none;}
+a{color: #8AB833;}
+a:hover{color: #3b3b3b;}
+img.mockup{
+
+    opacity: 1;
+    -webkit-transition:margin .5s ease-in-out;
+    -moz-transition:margin .5s ease-in-out;
+    -ms-transition:margin .5s ease-in-out;
+    -o-transition:margin .5s ease-in-out;
+    transition:margin .5s ease-in-out;
+}
+img.mockup:hover{margin-top: -10px;}
